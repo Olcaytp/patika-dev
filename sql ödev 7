@@ -1,0 +1,9 @@
+SELECT rating,count(*) FROM film
+GROUP BY rating;
+
+SELECT replacement_cost,count(*) FROM film
+GROUP BY replacement_cost
+HAVING Count(replacement_cost)>50;
+
+SELECT DISTINCT( count(store_id)) FROM customer;
+
