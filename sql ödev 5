@@ -1,0 +1,16 @@
+SELECT * from film 
+WHERE title lIKE '%n'
+ORDER BY length DESC
+LIMIT 5;
+
+SELECT * from film 
+WHERE title lIKE '%n'
+ORDER BY length ASC
+OFFSET 5
+LIMIT 10;
+
+SELECT * FROM customer
+WHERE store_id = 1 
+ORDER BY last_name ASC
+LIMIT 4;
+
