@@ -1,0 +1,91 @@
+--CREATE TABLE employee (
+--	id serial,
+--	name Varchar(50),
+--	email Varchar(50),
+--	birthdate date
+--);
+
+
+--insert into employee (name, email, birthdate) values ('Buddy', 'bdysart0@apache.org', '2021/04/05');
+--insert into employee (name, email, birthdate) values ('Saundra', 'skowal1@mysql.com', '2020/12/26');
+--insert into employee (name, email, birthdate) values ('Erastus', 'echadney2@angelfire.com', '2020/12/17');
+--insert into employee (name, email, birthdate) values ('Pietra', 'peyden3@webs.com', '2021/01/29');
+--insert into employee (name, email, birthdate) values ('Shae', 'spawfoot4@tmall.com', '2020/12/15');
+--insert into employee (name, email, birthdate) values ('Leland', 'lbetancourt5@ed.gov', '2021/02/10');
+--insert into employee (name, email, birthdate) values ('Frederich', 'fdavys6@google.com.au', '2021/09/03');
+--insert into employee (name, email, birthdate) values ('Kellia', 'kbarnicott7@baidu.com', '2021/10/15');
+--insert into employee (name, email, birthdate) values ('Lizzie', 'lstuttman8@cbsnews.com', '2021/10/28');
+--insert into employee (name, email, birthdate) values ('Audry', 'adominguez9@freewebs.com', '2020/12/18');
+--insert into employee (name, email, birthdate) values ('Dilan', 'dandinoa@skyrock.com', '2020/11/25');
+--insert into employee (name, email, birthdate) values ('Minda', 'mjacobowiczb@hubpages.com', '2020/12/15');
+--insert into employee (name, email, birthdate) values ('Lou', 'lparfittc@reddit.com', '2021/10/21');
+--insert into employee (name, email, birthdate) values ('Normand', 'nbygravesd@skype.com', '2021/09/04');
+--insert into employee (name, email, birthdate) values ('Glyn', 'gthurstone@reverbnation.com', '2020/11/10');
+--insert into employee (name, email, birthdate) values ('Giff', 'gtopingf@theatlantic.com', '2021/03/23');
+--insert into employee (name, email, birthdate) values ('Chadd', 'cblackboroughg@icq.com', '2021/10/06');
+--insert into employee (name, email, birthdate) values ('Philomena', 'pduxfieldh@about.me', '2021/02/18');
+--insert into employee (name, email, birthdate) values ('Jania', 'jtitcombi@ustream.tv', '2021/05/08');
+--insert into employee (name, email, birthdate) values ('Fabe', 'fruusaj@goo.gl', '2021/03/19');
+--insert into employee (name, email, birthdate) values ('Marcela', 'mgarmeyk@mapy.cz', '2021/06/12');
+--insert into employee (name, email, birthdate) values ('Gare', 'ggiorgeschil@tinypic.com', '2021/02/05');
+--insert into employee (name, email, birthdate) values ('Franz', 'fhallmarkm@typepad.com', '2021/06/20');
+--insert into employee (name, email, birthdate) values ('Mitchell', 'mhodjettsn@sina.com.cn', '2021/01/20');
+--insert into employee (name, email, birthdate) values ('Hilliary', 'hmatthiaso@springer.com', '2021/01/06');
+--insert into employee (name, email, birthdate) values ('Lonee', 'lmcnuttp@mit.edu', '2021/07/09');
+--insert into employee (name, email, birthdate) values ('Karney', 'kadamikq@hc360.com', '2021/10/07');
+--insert into employee (name, email, birthdate) values ('Rodie', 'rduesberryr@engadget.com', '2021/09/10');
+--insert into employee (name, email, birthdate) values ('Woodrow', 'wgerlings@newsvine.com', '2021/02/10');
+--insert into employee (name, email, birthdate) values ('Marvin', 'msaddletont@washingtonpost.com', '2021/10/27');
+--insert into employee (name, email, birthdate) values ('Winona', 'wladenu@techcrunch.com', '2021/11/04');
+--insert into employee (name, email, birthdate) values ('Rance', 'rhellinv@plala.or.jp', '2021/01/04');
+--insert into employee (name, email, birthdate) values ('Keen', 'katwoodw@sakura.ne.jp', '2021/03/16');
+--insert into employee (name, email, birthdate) values ('Tallie', 'tstansfieldx@pcworld.com', '2021/03/31');
+--insert into employee (name, email, birthdate) values ('Pierre', 'pspearmany@vk.com', '2021/05/09');
+--insert into employee (name, email, birthdate) values ('Linn', 'lfanshawz@army.mil', '2021/04/05');
+--insert into employee (name, email, birthdate) values ('Horatius', 'haymerich10@blogs.com', '2020/12/14');----
+--insert into employee (name, email, birthdate) values ('Eugen', 'etidcombe11@craigslist.org', '2020/12/05');
+--insert into employee (name, email, birthdate) values ('Maighdiln', 'mrimour12@cdbaby.com', '2021/06/14');
+--insert into employee (name, email, birthdate) values ('Ursala', 'uemburey13@mozilla.com', '2021/08/19');
+--insert into employee (name, email, birthdate) values ('Jaquenette', 'jandrei14@live.com', '2021/08/08');
+--insert into employee (name, email, birthdate) values ('Lorene', 'lkeppin15@twitpic.com', '2021/08/07');
+--insert into employee (name, email, birthdate) values ('Fleming', 'fperrie16@nih.gov', '2021/09/30');
+--insert into employee (name, email, birthdate) values ('Aigneis', 'awasmer17@ucsd.edu', '2021/05/22');
+--insert into employee (name, email, birthdate) values ('Gillie', 'gcraighall18@alexa.com', '2021/04/22');
+--insert into employee (name, email, birthdate) values ('Maurizia', 'mzappel19@vistaprint.com', '2021/06/24');
+--insert into employee (name, email, birthdate) values ('Quintina', 'qronald1a@hubpages.com', '2021/08/07');
+--insert into employee (name, email, birthdate) values ('Barton', 'bfellman1b@ovh.net', '2021/10/27');
+--insert into employee (name, email, birthdate) values ('Kali', 'kcockshutt1c@shinystat.com', '2021/09/05');
+--insert into employee (name, email, birthdate) values ('Sherye', 'sgasker1d@shareasale.com', '2021/10/11');
+
+
+--UPDATE employee
+--SET name='Semih'
+--WHERE id = 1;
+
+--UPDATE employee
+--SET email='Semih@ozmen.com'
+--WHERE id = 10;
+
+--UPDATE employee
+--SET name='xXX'
+--WHERE id = 15;
+
+--UPDATE employee
+--SET birthdate = '1990-07-10'
+--WHERE id = 40;
+
+--UPDATE employee
+--SET name = 'merhabe'
+--WHERE id = 25;
+
+--DELETE FROM employee
+--WHERE id = 11;
+
+--DELETE FROM employee
+--WHERE name = 'Kali';
+
+--DELETE FROM employee
+--WHERE id = 22;
+
+--DELETE FROM employee
+--WHERE email = 'gcraighall18@alexa.com';
