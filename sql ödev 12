@@ -1,0 +1,17 @@
+--SELECT count(length) from film
+--where length >
+--(SELECT AVG(length) from film);
+
+--select count(rental_rate) from film 
+--where rental_rate = 
+--(select max(rental_rate) from film);
+
+--select title from film 
+--where rental_rate = (SELECT min(rental_rate) from film)
+--AND
+--replacement_cost = (SELECT min(replacement_cost) from film);
+
+--select first_name , sum(amount) from customer
+--INNER JOIN payment ON customer.customer_id = payment.customer_id
+--group by first_name
+--ORDER BY sum(amount) DESC;
